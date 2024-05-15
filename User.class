@@ -1,0 +1,27 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+public class User {
+    String username = "marvelous";
+    String password = "Pass";
+
+    public User() {
+    }
+
+    String login() {
+        return this.username.equals("Marvelous") && this.password.equals("Pass") ? "Logged in" : "Failed";
+    }
+
+    boolean checker() {
+        return true;
+    }
+
+    public static void main(String[] var0) {
+        User var1 = new User();
+        User var2 = new User();
+        System.out.println(var2.checker());
+        System.out.println(var1.login());
+    }
+}
