@@ -1,0 +1,29 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+public class hello {
+    public hello() {
+    }
+
+    public static void main(String[] var0) {
+        byte var1 = 9;
+        double var2 = (double)var1;
+        System.out.println(var1);
+        System.out.println(var2);
+        short var4 = 150;
+        int var5 = var4 + 250;
+        int var6 = var5 + var5;
+        ++var6;
+        System.out.println(var4);
+        System.out.println(var5);
+        System.out.println(var6);
+        System.out.println(var6);
+        String var8 = "Please locate where 'locate' occurs!";
+        System.out.println(var8.indexOf("locate"));
+        String var9 = "john";
+        String var10 = "mactavish";
+        System.out.println(var9.concat(var10));
+    }
+}
