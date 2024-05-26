@@ -1,0 +1,13 @@
+
+package class3; 
+
+public class physic {
+
+    float calculateVelocity(double distance, int time) {
+        return (float) (distance / time);
+    }
+
+    float calculateVelocity1(double initialVelocity, double acceleration, int time) {
+        return (float) (initialVelocity + (acceleration * time)); 
+    }
+}
