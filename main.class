@@ -1,0 +1,19 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+public class Main {
+    int length = 23;
+    int breadth = 50;
+    int area;
+
+    public Main() {
+    }
+
+    public static void main(String[] var0) {
+        Main var1 = new Main();
+        var1.area = var1.length * var1.breadth;
+        System.out.println("the area of object is " + var1.area);
+    }
+}
