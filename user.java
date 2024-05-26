@@ -19,7 +19,7 @@ public class User {
     public static void main(String[] args) {
         User jane = new User();
         User luke = new User();
-        System.out.println(luke.checker());
-        System.out.println(jane.login());
+        System.out.println(marvelous.checker());
+        System.out.println(uzoma.login());
     }
 }
