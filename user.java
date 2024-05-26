@@ -17,8 +17,8 @@ public class User {
     }
     
     public static void main(String[] args) {
-        User jane = new User();
-        User luke = new User();
+        User marvelous = new User();
+        User uzoma = new User();
         System.out.println(marvelous.checker());
         System.out.println(uzoma.login());
     }
