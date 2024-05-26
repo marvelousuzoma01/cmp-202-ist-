@@ -12,9 +12,9 @@ public class start {
 
         person person = new person();
 
-        person Student = new Student("Bingham", "eboh", "654321", "BHU/22/04/09/0009");
+        person Student = new Student("Bingham", "uzoma", "1234567", "BHU/22/04/09/0046");
         
-        person Staff = new Staff("Bingham", "abu", "654321", 667);
+        person Staff = new Staff("Bingham", "ABU", "123456", 071);
 
 
 
