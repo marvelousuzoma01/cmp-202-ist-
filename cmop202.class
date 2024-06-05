@@ -1,0 +1,33 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package OOP_java;
+
+public class CMP202 {
+    String name;
+    String password;
+    int age;
+    float height;
+
+    public CMP202() {
+    }
+
+    void printUserDetails() {
+        this.age = 23;
+        this.height = 170.0F;
+        this.name = "jamesOOP";
+        this.name.length();
+        this.password = "123456";
+        if (this.password.contains("123456") || this.password.contains("abcdef")) {
+            System.out.println("password is too short");
+        }
+
+    }
+
+    public static void main(String[] var0) {
+        CMP202 var1 = new CMP202();
+        var1.printUserDetails();
+    }
+}
